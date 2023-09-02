@@ -1,0 +1,362 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar{background-image: url(./../images/page-heading-bg.jpg);
+}
+
+.sign-btn{
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #ee626b;
+    color: white;
+}
+.nav-item{
+    margin-left: 20px;
+}
+.nav-item:hover{
+background-color: #c3c3c3b4;
+border-radius: 20px;
+}
+/* hero */
+.hero{
+    /* background-image: url(./../images/banner-bg.jpg); */
+    /* height: 100vh;
+    border-radius: 0px 0px 150px 150px; */
+    /* justify-content: center; */
+    /* display: flex; */
+    background-image: url(../images/banner-bg.jpg);
+    border-radius: 0px 0px 150px 150px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 225px 0px;
+    /* width: max-content; */
+    
+    
+}
+.banner-text p{
+width: 50%;
+}
+
+ img{
+    border-radius: 25px;
+    
+ }
+.hero-welcom{
+    font-size: 22px;
+}
+.hero-head{
+    font-size: 40px;
+    font-weight: bold;
+    width: max-content;
+}
+.image-hero{
+    position: relative;
+}
+.price{
+    position: absolute;
+    top: 20px;
+    left:350px;
+    background-color: #0071f8;
+    padding: 10px;
+    border-radius: 20px;
+}
+.offer{
+    position: absolute;
+    bottom: -10px;
+    left: -20px;
+    background-color: #ee626b;
+    padding: 20px;
+    border-radius: 50px;
+}
+.box{
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 150px;
+    margin-top: -50px;
+    padding: 10px;
+    margin-bottom: 30px;
+    /* border-bottom: 1px solid red; */
+    box-shadow: 7px 5px #010710b4;
+}
+
+.box .circle img{
+   background-color: #0071f8;
+   border-radius: 50px;
+   padding: 20px;
+}
+
+.box .circle img:hover{
+    background-color: #ee626b;
+}
+
+.section-1{
+    margin-top: 100px;
+}
+.red-text{
+    color: #ee626b;
+    font-weight: bold;
+}
+
+.head-line-sec-2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.view-all{
+    background-color: #ee626b;
+    padding: 10px 30px;
+    border-radius: 15px;
+   
+}
+.view-all:hover{
+    background-color: #0071f8;
+}
+
+.card{
+    margin-top:100px;
+}
+.card img{
+    width: 100%;
+    position: relative;
+}
+.last-price{
+    position: absolute;
+    background-color: #0071f8;
+    padding: 10px;
+    border-radius:10px ;
+    top: 7px;
+    left: 230px;
+    color: whitesmoke;
+    
+}
+
+.card-flex-text{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-flex-text p{
+    /* font-size: 22px; */
+    font-weight: bold;
+
+}
+.card-flex-text button{
+    background-color: #ee626b;
+    padding: 0 10px;
+    border-radius: 10px;
+}
+
+.card-flex-text-2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.card-flex-text-2 .explor{
+    padding: 5px 20px;
+    border-radius: 10px;
+    background-color: #ee626b;
+}
+.explor:hover{
+    background-color: #0071f8;
+}
+
+.card-flex-text-2 p{
+    font-weight: bold;
+}
+
+.last-price-2{
+    position: absolute;
+    background-color: #0071f8;
+    padding: 10px;
+    border-radius:10px ;
+    top: 7px;
+    left: 142px;
+    
+    color: whitesmoke;
+}
+
+/* section_3 */
+
+.section-3{
+    margin-top: 200px;
+
+}
+
+.sec-3-head{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.action{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.card-body-sec-3{
+    width: 100%;
+    /* height: 60px; */
+    
+    /* background-color: #0071f8; */
+    
+}
+
+
+.sec-3-card{
+    background-color: #0071f8;
+    
+}
+.card{
+    box-shadow: 4px 5px #010710b4;
+}
+
+
+
+/* ....................................... */
+
+/* section_4 */
+.section-4{
+    margin-top: 200px;
+}
+.section-4 .sec-4-card{
+    background-color: rgba(186, 182, 182, 0.503);
+    height: 500px;
+    width: 380px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-left: 10px;
+    box-shadow: 4px 5px #010710b4;
+    margin: 0 auto;
+    margin-bottom: 100px;
+
+}
+.sec-4-card h1 span{
+    color: #0071f8;
+}
+.sec-4-card .our{
+  color: #ee626b;
+  text-align: left;
+}
+.sec-4-card .card-p-4{
+    font-size: 22px;
+
+}
+.sec-4-card .explor{
+    margin-top: 30px;
+    width: 200px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #ee626b;
+    font-weight: bold;
+
+}
+.sec-4-card .explor:hover{
+    background-color: #0071f8;
+}
+.sec-4-card h1{
+    font-weight: bolder;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .input {
+    min-height: 50px;
+    max-width: 150px;
+    padding: 0 1rem;
+    color: #fff;
+    font-size: 15px;
+    border: 1px solid #ee626b;
+    border-radius: 6px 0 0 6px;
+    background-color: transparent;
+  }
+  
+  .button--submit {
+    min-height: 50px;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 0 6px 6px 0;
+    background-color: #ee626b;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color .3s ease-in-out;
+  }
+  
+  .button--submit:hover {
+    background-color: #0071f8;
+  }
+  
+  .input:focus, .input:focus-visible {
+    border-color: #3898EC;
+    outline: none;
+  }
+  
+  /* .......................................... */
+
+  /* footer */
+
+  footer{
+   
+    margin-top: 150px;
+    background-color: #0071f8;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../images/footer-bg.jpg);
+    min-height: 150px;
+    border-radius: 130px 130px 0px 0px;
+  }
+
+  footer p{
+    text-align: center;
+    line-height: 90px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    /* width: fit-content; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:760px){
+    .hero-head{
+        font-size: 25px;
+        font-weight: bold;
+        /* width: max-content; */
+    
+}}
