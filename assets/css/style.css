@@ -168,6 +168,7 @@ width: 50%;
 }
 .explor:hover{
     background-color: #0071f8;
+    padding: 10px;
 }
 
 .card-flex-text-2 p{
@@ -457,6 +458,9 @@ width: 50%;
 
       .last-price-2{
         display: none;
+    }
+    .hero{
+        margin-top: -100px;
     }
 
 }
